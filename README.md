@@ -1,48 +1,52 @@
-# Journalism School Cost Analysis
+# Journalism School Cost vs. US Median Income for Journalists
 
-This project analyzes the cost of journalism school compared to other educational programs, using data from the U.S. Bureau of Labor Statistics.
+This project aims to analyze the cost of journalism programs, specifically at Columbia University's MS Journalism program, in relation to the median annual income for journalists in the U.S. The goal is to understand how the high costs of journalism education compare to potential earnings in the field, and whether the investment in a prestigious program like Columbia's Journalism School is justified by the financial payoff.
 
-## Project Overview
+## Overview
+In this project, I scraped data from Columbia University's MS Journalism program webpages using BeautifulSoup to extract tuition and program cost information. Additionally, I analyzed median income data for journalists from the U.S. Bureau of Labor Statistics using Pandas. The analysis provides insights into the financial challenges faced by journalism students and offers a data-driven look at the return on investment for pursuing a career in journalism.
 
-This data analysis project aims to investigate whether journalism school is expensive relative to other educational programs. The study combines web scraping, data analysis, and visualization techniques to provide insights into the costs associated with journalism education.
+## Key Steps and Tools
+### 1. Data Collection
+- **Web Scraping**: The tuition and cost data for the Columbia MS Journalism program were gathered by scraping relevant information from Columbia University's official program pages using **BeautifulSoup**.
+- **US Bureau of Labor Statistics**: The median annual income for journalists was obtained from the U.S. Bureau of Labor Statistics (BLS) and analyzed using **Pandas**.
 
-## Methodology
+### 2. Data Analysis
+- The scraped data, along with the BLS data, were combined and analyzed using Python's **Pandas** library to explore trends and relationships between journalism education costs and the median salary for journalists in the U.S.
 
-1. **Data Collection**: Used Beautiful Soup to scrape relevant data from the U.S. Bureau of Labor Statistics website[1].
-2. **Data Analysis**: Employed pandas in Python to clean, process, and analyze the scraped data[2].
-3. **Visualization**: Created visualizations using both R's tidyverse and Datawrapper to illustrate the findings[3].
+### 3. Data Visualization
+- **ggplot2 & Tidyverse**: Data visualizations were created using the **ggplot2** package in R to present the findings. Various plots such as bar charts and line graphs were employed to show the differences in journalism education costs and salary data.
+- **Datawrapper**: Additional visualizations were created using **Datawrapper** for easy, interactive charts.
 
-## Key Findings
+### 4. Images
+- **Pexels**: The images used in the project, including visuals for presentations and blog posts, were sourced from **Pexels**, offering high-quality and free-to-use stock images.
 
-- Journalism degrees tend to cost more than law and engineering degrees[4].
-- [Include 2-3 other key findings from your analysis]
+## Files and Structure
+- **data**: Contains raw data from Columbia University's MS Journalism program and the U.S. Bureau of Labor Statistics.
+- **scraping.py**: Python script used to scrape data from Columbia's program webpages using BeautifulSoup.
+- **analysis.ipynb**: Jupyter notebook that includes data cleaning, analysis, and visualizations of the scraped data.
+- **visualizations**: Folder containing saved charts and graphs generated during the analysis in ggplot2.
+- **README.md**: This file containing project details and instructions.
 
-## Repository Structure
+## Running the Project
+### Prerequisites
+Ensure you have the following Python libraries installed:
+- BeautifulSoup
+- Pandas
+- Requests
+- Matplotlib (for initial visualizations)
 
-```
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   ├── 01_web_scraping.ipynb
-│   ├── 02_data_analysis.ipynb
-│   └── 03_visualization.ipynb
-├── R/
-│   └── visualization_scripts.R
-├── visualizations/
-├── README.md
-└── requirements.txt
-```
+For R:
+- ggplot2
+- Tidyverse
+- Datawrapper API
 
-## Setup and Installation
+### Steps:
+1. Run **scraping.py** to collect data from Columbia's MS Journalism program webpages.
+2. Load and clean the data in **analysis.ipynb**.
+3. Analyze and visualize the data using **Pandas** for analysis and **ggplot2** in R for data visualization.
+4. Optionally, use **Datawrapper** for interactive charts.
 
-1. Clone this repository
-2. Install required Python packages: `pip install -r requirements.txt`
-3. Install required R packages: `install.packages(c("tidyverse", "ggplot2"))`
+## Conclusion
+This project sheds light on the financial burden faced by journalism students at Columbia University and compares it with median journalist salaries in the U.S. Through data analysis and visualizations, the project highlights the financial challenges that may arise when pursuing a journalism degree from one of the nation's top institutions.
 
-## Usage
-
-1. Run the Jupyter notebooks in the `notebooks/` directory sequentially
-2. Execute R scripts in the `R/` directory for additional visualizations
-
-## Visual elements were taken from Pexels.com
+Feel free to adjust the sections as necessary!
