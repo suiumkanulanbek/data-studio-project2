@@ -45,3 +45,4 @@ This data analysis project aims to investigate whether journalism school is expe
 1. Run the Jupyter notebooks in the `notebooks/` directory sequentially
 2. Execute R scripts in the `R/` directory for additional visualizations
 
+## Visual elements were taken from Pexels.com
