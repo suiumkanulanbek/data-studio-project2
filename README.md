@@ -45,22 +45,3 @@ This data analysis project aims to investigate whether journalism school is expe
 1. Run the Jupyter notebooks in the `notebooks/` directory sequentially
 2. Execute R scripts in the `R/` directory for additional visualizations
 
-## Future Work
-
-- Expand the analysis to include more educational programs
-- Investigate the return on investment for journalism degrees
-- [Add any other potential future directions for the project]
-
-## License
-
-This project is licensed under the MIT License.
-
-Citations:
-[1] https://medium.datadriveninvestor.com/how-to-write-a-good-readme-for-your-data-science-project-on-github-ebb023d4a50e
-[2] https://www.youtube.com/watch?v=0N9xekdKCwk
-[3] https://book.the-turing-way.org/project-design/project-repo/project-repo-advanced.html
-[4] https://github.com/JIC-CSB/data-analysis-project
-[5] https://gist.github.com/ericmjl/27e50331f24db3e8f957d1fe7bbbe510
-[6] https://github.com/ahgroup/data-analysis-template
-[7] https://github.com/sfbrigade/data-science-wg/blob/master/dswg_project_resources/Project-README-template.md
-[8] https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md
